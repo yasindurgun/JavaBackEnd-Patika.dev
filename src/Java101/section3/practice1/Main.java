@@ -1,4 +1,4 @@
-package Java101.hw1;
+package Java101.section3.practice1;
 
 import java.util.Scanner;
 
@@ -27,7 +27,7 @@ public class Main {
         muzik = inp.nextInt();
 
         int toplam = mat + fizik + kimya + turkce + tarih + muzik;
-        double sonuc = toplam/6;
+        double sonuc = toplam/6.0;
 
         System.out.println("Ortalamanız: " + sonuc);
 
