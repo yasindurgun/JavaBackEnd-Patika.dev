@@ -42,7 +42,6 @@ public class Main {
         else {
             average = (mat+fizik+kimya+muzik+turkce) / 5.0;
         }
-
         if(average <= 55) {
             System.out.println("Kaldınız");
             //System.out.println("Ortalamanız: " + average);
