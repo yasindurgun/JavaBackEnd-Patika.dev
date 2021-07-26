@@ -7,10 +7,10 @@ public class Main {
         Scanner input = new Scanner(System.in);
         double boy,kilo,indeks;
 
-        System.out.println("Lütfen boyunuzu (metre cinsinden) giriniz:");
+        System.out.print("Lütfen boyunuzu (metre cinsinden) giriniz:");
         boy = input.nextDouble();
 
-        System.out.println("Lütfen kilonuzu giriniz:");
+        System.out.print("Lütfen kilonuzu giriniz:");
         kilo = input.nextDouble();
 
         indeks = kilo / (boy*boy);
